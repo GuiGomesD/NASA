@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Press Start 2P", system-ui;
+}
+
+body {
+    
+}
+
+div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+#cap-titulo {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    padding: 10px;
+}
+
+#cap-titulo h1 {
+    font-size: 18px;
+}
